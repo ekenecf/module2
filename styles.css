@@ -3,7 +3,7 @@
   padding: 0;
 }
 
-html,body {
+html body {
   width: 100%;
   height: auto;
   overflow-x: hidden;
@@ -36,7 +36,7 @@ a {
   font-style: normal;
   font-weight: bold;
   font-size: 18px;
-  color: #6070FF;
+  color: #6070ff;
 }
 
 a:hover {
@@ -56,7 +56,7 @@ a:hover {
   width: 360px;
   margin: 30px auto;
   background-image: url("./images/Header_bg.jpg");
-  background-size:cover;
+  background-size: cover;
   padding: 0 15px 0 15px;
 }
 
