@@ -18,7 +18,7 @@ html body {
   background-color: white;
   padding-top: 1rem;
   padding-right: 5px;
-  padding-left: 24px;
+  padding-left: 12px;
   width: 100%;
   display: flex;
   font-size: 18px;
@@ -53,7 +53,6 @@ a:hover {
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  padding-top: 10px;
   padding-right: 24px;
 }
 
@@ -66,8 +65,8 @@ a:hover {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  padding-top: 114px;
-  padding-left: 1rem;
+  padding-inline: 1rem;
+  padding-top: 128px;
 }
 
 .section2 h1 {
@@ -110,4 +109,5 @@ p.second-paragraph {
 
 li {
   margin: 15px;
+  margin-left: 0;
 }
