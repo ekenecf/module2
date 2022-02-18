@@ -97,6 +97,7 @@ p.second-paragraph {
   justify-content: flex-start;
   width: 100%;
   list-style: none;
+  /* margin-left: 21px; */
 }
 
 .social-media img {
@@ -160,7 +161,6 @@ li {
   margin-top: 20px;
   margin-right: 20px;
   display: flex;
-  /* justify-items: inline; */
 }
 
 .to-do-para {
@@ -230,7 +230,7 @@ span.can {
 
 .word0 {
   color: #6070ff;
-  font-family:'Poppins', sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 12px;
@@ -263,8 +263,6 @@ span.can {
 .html {
   width: 53px;
   height: 24px;
-  left: 0px;
-  top: 0px;
   padding: 4px 12px;
   background: #ebebff;
   margin-right: 8px;
@@ -354,14 +352,12 @@ span.can2 {
   color: #344563;
 }
 
-
-
 .back2 {
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 13px;
-  color: #7A869A;
+  color: #7a869a;
 }
 
 .to-do2 img {
@@ -399,15 +395,16 @@ span.can2 {
   border-radius: 8px;
 }
 
-.word2 {
+.word219 {
   color: #6070ff;
-  font-family:'Poppins', sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 12px;
   line-height: 16px;
   left: 12px;
   top: 4px;
+  padding: 3px 0 0 15px;
 }
 
 .css2 {
@@ -434,16 +431,14 @@ span.can2 {
 .html2 {
   width: 53px;
   height: 24px;
-  left: 0px;
-  top: 0px;
   padding: 4px 12px;
-  background: #EBEBFF;
+  background: #ebebff;
   margin-right: 8px;
   border-radius: 8px;
 }
 
 .word4 {
-  color: #6070FF;
+  color: #6070ff;
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 500;
@@ -453,10 +448,10 @@ span.can2 {
 }
 
 .click2 {
-  border: 1px solid #6070FF;
+  border: 1px solid #6070ff;
   color: white;
   border-radius: 5px;
-  font-family: 'poppins';
+  font-family: 'poppins', sans-serif;
   font-size: 20px;
   margin-top: 18px;
   max-width: 45%;
@@ -562,7 +557,7 @@ span.can3 {
 
 .word3 {
   color: #6070ff;
-  font-family:'Poppins', sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 12px;
@@ -614,26 +609,16 @@ span.can3 {
   width: 50px;
 }
 
-.click2 {
+.click24 {
   border: 1px solid #6070ff;
   color: white;
   border-radius: 5px;
-  font-family: 'poppins';
+  font-family: 'poppins', sans-serif;
   font-size: 20px;
   margin-top: 18px;
   max-width: 45%;
   text-align: center;
 }
-
-/* button {
-  font-weight: 500;
-  letter-spacing: 0.03rem;
-  margin: 12px 0 12px 0;
-  background-color: white;
-  border: 1px;
-  color: #6070ff;
-  font-size: 17px;
-} */
 
 /* part four */
 
@@ -650,7 +635,7 @@ span.can3 {
   height: 596px;
 }
 
-.second-section51 img{
+.second-section51 img {
   width: 295px;
   height: 220px;
   margin-top: 16px;
@@ -727,7 +712,6 @@ span.can51 {
   width: 89px;
   height: 24px;
   left: 114px;
-  top: 0px;
   padding: 4px 12px;
   background: #ebebff;
   border-radius: 8px;
@@ -735,7 +719,7 @@ span.can51 {
 
 .word051 {
   color: #6070ff;
-  font-family:'Poppins', sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 12px;
@@ -749,7 +733,6 @@ span.can51 {
   align-items: center;
   width: 45px;
   margin-right: 8px;
-
 }
 
 .word2151 {
@@ -769,8 +752,6 @@ span.can51 {
 .html51 {
   width: 53px;
   height: 24px;
-  left: 0px;
-  top: 0px;
   padding: 4px 12px;
   background: #ebebff;
   margin-right: 8px;
@@ -791,22 +772,12 @@ span.can51 {
   border: 1px solid #6070ff;
   color: white;
   border-radius: 5px;
-  font-family: 'poppins';
+  font-family: 'poppins', sans-serif;
   font-size: 20px;
   margin-top: 18px;
   max-width: 45%;
   text-align: center;
 }
-
-/* button {
-  font-weight: 500;
-  letter-spacing: 0.03rem;
-  margin: 12px 0 12px 0;
-  background-color: white;
-  border: 1px;
-  color: #6070ff;
-  font-size: 17px;
-} */
 
 button:hover {
   background-color: #ebebff;
@@ -817,10 +788,12 @@ button:active {
   transform: translateY(4px);
 }
 
+/* About myself */
+
 .last {
   width: 375px;
   height: 1263px;
-  display: column;
+  display: block;
   background-color: #fff;
 }
 
@@ -835,7 +808,7 @@ button:active {
   color: #172b4d;
 }
 
-.last p{
+.last p {
   margin-top: 12px;
   font-size: 16px;
   line-height: 24px;
@@ -843,7 +816,7 @@ button:active {
   padding: 0 24px 0 24px;
 }
 
-h3{
+h3 {
   color: #7f8cff;
   font-weight: 500;
   font-size: 16px;
@@ -864,7 +837,7 @@ h3{
 
 h4 {
   margin: 2px 100px 0 0;
-  color: #000000;
+  color: #000;
   font-weight: 500;
   font-size: 20px;
   line-height: 24px;
@@ -873,7 +846,7 @@ h4 {
 .prog1 {
   display: flex;
   justify-content: flex-start;
-  background: #F7F7F9;
+  background: #f7f7f9;
   border-radius: 8px;
   width: 303px;
   height: 66.72px;
@@ -896,7 +869,7 @@ h4 {
 .prog2 {
   display: flex;
   justify-content: flex-start;
-  background: #F7F7F9;
+  background: #f7f7f9;
   border-radius: 8px;
   width: 303px;
   height: 66.72px;
@@ -957,4 +930,12 @@ h4 {
 .icon-container3 {
   width: 20px;
   margin-right: 74px;
+}
+
+.social-media48 {
+  display: flex;
+  justify-content: flex-start;
+  width: 100%;
+  list-style: none;
+  margin-left: 33px;
 }
