@@ -111,7 +111,7 @@ li {
 
 /* Grid container */
 
-.grid-position{
+.grid-position {
   display: flex;
   justify-content: center;
   margin-top: 114px;
@@ -122,7 +122,7 @@ li {
   width: 375px;
   height: 100%;
   grid-template-columns: auto;
-  background: #E5E5E5;
+  background: #e5e5e5;
   row-gap: 114px;
 }
 
@@ -132,8 +132,8 @@ li {
   display: block;
   margin-inline: 24px;
   margin-top: 16px;
-  background: #FFFFFF;
-  border: 1px solid #DFE1E6;
+  background: #fff;
+  border: 1px solid #dfe1e6;
   box-sizing: border-box;
   border-radius: 16px;
   padding-inline: 16px;
@@ -141,7 +141,7 @@ li {
   height: 552px;
 }
 
-.second-section img{
+.second-section img {
   width: 295px;
   height: 220px;
   margin-top: 16px;
@@ -150,17 +150,17 @@ li {
 .second-section h1 {
   font-size: 32px;
   font-weight: 700;
-  line-height: 44px; 
+  line-height: 44px;
   margin-top: 12px;
   font-family: 'Poppins', sans-serif;
-  color: #172B4D;
+  color: #172b4d;
 }
 
 .to-do {
   margin-top: 20px;
   margin-right: 20px;
   display: flex;
-  justify-items: inline;
+  /* justify-items: inline; */
 }
 
 .to-do-para {
@@ -189,7 +189,7 @@ span.can {
   font-style: normal;
   font-weight: 600;
   font-size: 13px;
-  color: #7A869A;
+  color: #7a869a;
 }
 
 .to-do img {
@@ -203,7 +203,7 @@ span.can {
   font-style: normal;
   font-weight: 600;
   font-size: 13px;
-  color: #7A869A;
+  color: #7a869a;
 }
 
 .works {
@@ -216,7 +216,6 @@ span.can {
   align-items: center;
   width: 203px;
   height: 24px;
-  left: 0px;
   top: 180px;
 }
 
@@ -224,14 +223,13 @@ span.can {
   width: 89px;
   height: 24px;
   left: 114px;
-  top: 0px;
   padding: 4px 12px;
-  background: #EBEBFF;
+  background: #ebebff;
   border-radius: 8px;
 }
 
 .word0 {
-  color: #6070FF;
+  color: #6070ff;
   font-family:'Poppins', sans-serif;
   font-style: normal;
   font-weight: 500;
@@ -242,15 +240,14 @@ span.can {
 }
 
 .css {
-  color: #6070FF;
+  color: #6070ff;
   align-items: center;
   width: 45px;
   margin-right: 8px;
-
 }
 
 .word21 {
-  background: #EBEBFF;
+  background: #ebebff;
   font-family: 'Poppins', sans-serif;
   height: 24px;
   left: 61px;
@@ -269,13 +266,13 @@ span.can {
   left: 0px;
   top: 0px;
   padding: 4px 12px;
-  background: #EBEBFF;
+  background: #ebebff;
   margin-right: 8px;
   border-radius: 8px;
 }
 
-.word31 {
-  color: #6070FF;
+.word319 {
+  color: #6070ff;
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 500;
@@ -285,10 +282,10 @@ span.can {
 }
 
 .click {
-  border: 1px solid #6070FF;
-  color: white;
+  border: 1px solid #6070ff;
+  color: #fff;
   border-radius: 5px;
-  font-family: 'poppins';
+  font-family: 'poppins', sans-serif;
   font-size: 20px;
   margin-top: 18px;
   max-width: 45%;
@@ -299,7 +296,7 @@ button {
   font-weight: 500;
   letter-spacing: 0.03rem;
   margin: 12px 0 12px 0;
-  background-color: white;
+  background-color: #fff;
   border: 1px;
   color: #6070ff;
   font-size: 17px;
@@ -311,8 +308,8 @@ button {
   display: block;
   margin-inline: 24px;
   margin-top: 16px;
-  background: #FFFFFF;
-  border: 1px solid #DFE1E6;
+  background: #fff;
+  border: 1px solid #dfe1e6;
   box-sizing: border-box;
   border-radius: 16px;
   padding-inline: 16px;
@@ -320,7 +317,7 @@ button {
   height: 596px;
 }
 
-.second-section2 img{
+.second-section2 img {
   width: 295px;
   height: 220px;
   margin-top: 16px;
@@ -329,16 +326,15 @@ button {
 .second-section2 h1 {
   font-size: 32px;
   font-weight: 700;
-  line-height: 44px; 
+  line-height: 44px;
   margin-top: 12px;
   font-family: 'Poppins', sans-serif;
-  color: #172B4D;
+  color: #172b4d;
 }
 
 .to-do2 {
-  margin: 20px 20px;
+  margin: 20px 0 0 0;
   display: flex;
-  justify-items: inline;
 }
 
 .to-do-para2 {
@@ -358,9 +354,7 @@ span.can2 {
   color: #344563;
 }
 
-.img {
-  margin-top: -5px;
-}
+
 
 .back2 {
   font-family: 'Poppins', sans-serif;
@@ -381,7 +375,7 @@ span.can2 {
   font-style: normal;
   font-weight: 600;
   font-size: 13px;
-  color: #7A869A;
+  color: #7a869a;
 }
 
 .works2 {
@@ -394,7 +388,6 @@ span.can2 {
   align-items: center;
   width: 203px;
   height: 24px;
-  left: 0px;
   top: 180px;
 }
 
@@ -402,13 +395,12 @@ span.can2 {
   width: 89px;
   height: 24px;
   left: 114px;
-  top: 0px;
-  background: #EBEBFF;
+  background: #ebebff;
   border-radius: 8px;
 }
 
 .word2 {
-  color: #6070FF;
+  color: #6070ff;
   font-family:'Poppins', sans-serif;
   font-style: normal;
   font-weight: 500;
@@ -419,14 +411,14 @@ span.can2 {
 }
 
 .css2 {
-  color: #6070FF;
+  color: #6070ff;
   align-items: center;
   width: 45px;
   margin-right: 8px;
 }
 
 .word2 {
-  background: #EBEBFF;
+  background: #ebebff;
   font-family: 'Poppins', sans-serif;
   height: 24px;
   left: 61px;
@@ -471,25 +463,14 @@ span.can2 {
   text-align: center;
 }
 
-button {
-  font-weight: 500;
-  letter-spacing: 0.03rem;
-  margin: 12px 0 12px 0;
-  background-color: white;
-  border: 1px;
-  color: #6070ff;
-  font-size: 17px;
-}
-
 /* This is the third part */
-
 
 .second-section3 {
   display: block;
   margin-inline: 24px;
   margin-top: 16px;
-  background: #FFFFFF;
-  border: 1px solid #DFE1E6;
+  background: #fff;
+  border: 1px solid #dfe1e6;
   box-sizing: border-box;
   border-radius: 16px;
   padding-inline: 16px;
@@ -506,17 +487,16 @@ button {
 .second-section3 h1 {
   font-size: 32px;
   font-weight: 700;
-  line-height: 44px; 
+  line-height: 44px;
   margin-top: 12px;
   font-family: 'Poppins', sans-serif;
-  color: #172B4D;
+  color: #172b4d;
 }
 
 .to-do3 {
   margin-top: 20px;
   margin-right: 20px;
   display: flex;
-  justify-items: inline;
 }
 
 .to-do-para3 {
@@ -536,16 +516,12 @@ span.can3 {
   color: #344563;
 }
 
-.img {
-  margin-top: -5px;
-}
-
 .back3 {
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 13px;
-  color: #7A869A;
+  color: #7a869a;
 }
 
 .to-do3 img {
@@ -572,7 +548,6 @@ span.can3 {
   align-items: center;
   width: 203px;
   height: 24px;
-  left: 0px;
   top: 180px;
 }
 
@@ -580,13 +555,13 @@ span.can3 {
   width: 89px;
   height: 24px;
   left: 114px;
-  top: 0px;
-  background: #EBEBFF;
+  background: #ebebff;
   border-radius: 8px;
+  padding: 3px 0 0 15px;
 }
 
 .word3 {
-  color: #6070FF;
+  color: #6070ff;
   font-family:'Poppins', sans-serif;
   font-style: normal;
   font-weight: 500;
@@ -597,14 +572,14 @@ span.can3 {
 }
 
 .css3 {
-  color: #6070FF;
+  color: #6070ff;
   align-items: center;
   width: 45px;
   margin-right: 8px;
 }
 
-.word3 {
-  background: #EBEBFF;
+.word31 {
+  background: #ebebff;
   font-family: 'Poppins', sans-serif;
   height: 24px;
   left: 61px;
@@ -617,29 +592,30 @@ span.can3 {
   border-radius: 8px;
 }
 
-.html3 {
+.html151 {
   width: 53px;
   height: 24px;
-  left: 0px;
-  top: 0px;
   padding: 4px 12px;
-  background: #EBEBFF;
+  background: #ebebff;
   margin-right: 8px;
   border-radius: 8px;
 }
 
-.word4 {
-  color: #6070FF;
+.word413 {
+  background-color: #ebebff;
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 12px;
   line-height: 16px;
   letter-spacing: 0.03em;
+  padding: 5px 0 5px 9px;
+  border-radius: 8px;
+  width: 50px;
 }
 
 .click2 {
-  border: 1px solid #6070FF;
+  border: 1px solid #6070ff;
   color: white;
   border-radius: 5px;
   font-family: 'poppins';
@@ -649,7 +625,7 @@ span.can3 {
   text-align: center;
 }
 
-button {
+/* button {
   font-weight: 500;
   letter-spacing: 0.03rem;
   margin: 12px 0 12px 0;
@@ -657,7 +633,7 @@ button {
   border: 1px;
   color: #6070ff;
   font-size: 17px;
-}
+} */
 
 /* part four */
 
@@ -665,8 +641,8 @@ button {
   display: block;
   margin-inline: 24px;
   margin-top: 16px;
-  background: #FFFFFF;
-  border: 1px solid #DFE1E6;
+  background: #fff;
+  border: 1px solid #dfe1e6;
   box-sizing: border-box;
   border-radius: 16px;
   padding-inline: 16px;
@@ -683,17 +659,16 @@ button {
 .second-section51 h1 {
   font-size: 32px;
   font-weight: 700;
-  line-height: 44px; 
+  line-height: 44px;
   margin-top: 12px;
   font-family: 'Poppins', sans-serif;
-  color: #172B4D;
+  color: #172b4d;
 }
 
 .to-do51 {
   margin-top: 20px;
   margin-right: 20px;
   display: flex;
-  justify-items: inline;
 }
 
 .to-do-para51 {
@@ -713,16 +688,12 @@ span.can51 {
   color: #344563;
 }
 
-.img {
-  margin-top: -5px;
-}
-
 .back51 {
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 13px;
-  color: #7A869A;
+  color: #7a869a;
 }
 
 .to-do51 img {
@@ -736,7 +707,7 @@ span.can51 {
   font-style: normal;
   font-weight: 600;
   font-size: 13px;
-  color: #7A869A;
+  color: #7a869a;
 }
 
 .works51 {
@@ -749,7 +720,6 @@ span.can51 {
   align-items: center;
   width: 203px;
   height: 24px;
-  left: 0px;
   top: 180px;
 }
 
@@ -759,12 +729,12 @@ span.can51 {
   left: 114px;
   top: 0px;
   padding: 4px 12px;
-  background: #EBEBFF;
+  background: #ebebff;
   border-radius: 8px;
 }
 
 .word051 {
-  color: #6070FF;
+  color: #6070ff;
   font-family:'Poppins', sans-serif;
   font-style: normal;
   font-weight: 500;
@@ -775,7 +745,7 @@ span.can51 {
 }
 
 .css51 {
-  color: #6070FF;
+  color: #6070ff;
   align-items: center;
   width: 45px;
   margin-right: 8px;
@@ -783,7 +753,7 @@ span.can51 {
 }
 
 .word2151 {
-  background: #EBEBFF;
+  background: #ebebff;
   font-family: 'Poppins', sans-serif;
   height: 24px;
   left: 61px;
@@ -802,13 +772,13 @@ span.can51 {
   left: 0px;
   top: 0px;
   padding: 4px 12px;
-  background: #EBEBFF;
+  background: #ebebff;
   margin-right: 8px;
   border-radius: 8px;
 }
 
 .word3151 {
-  color: #6070FF;
+  color: #6070ff;
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 500;
@@ -818,7 +788,7 @@ span.can51 {
 }
 
 .click51 {
-  border: 1px solid #6070FF;
+  border: 1px solid #6070ff;
   color: white;
   border-radius: 5px;
   font-family: 'poppins';
@@ -828,7 +798,7 @@ span.can51 {
   text-align: center;
 }
 
-button {
+/* button {
   font-weight: 500;
   letter-spacing: 0.03rem;
   margin: 12px 0 12px 0;
@@ -836,10 +806,10 @@ button {
   border: 1px;
   color: #6070ff;
   font-size: 17px;
-}
+} */
 
 button:hover {
-  background-color: #6070ff;
+  background-color: #ebebff;
 }
 
 button:active {
@@ -851,10 +821,10 @@ button:active {
   width: 375px;
   height: 1263px;
   display: column;
-  background-color: white;
+  background-color: #fff;
 }
 
-.last h1{
+.last h1 {
   margin: 114px 24px 0 24px;
   height: 101px;
   font-family: 'Poppins', sans-serif;
@@ -862,47 +832,34 @@ button:active {
   font-weight: 700;
   font-size: 40px;
   line-height: 52px;
-  color: #172B4D;
+  color: #172b4d;
 }
 
 .last p{
   margin-top: 12px;
   font-size: 16px;
   line-height: 24px;
-  color: #344563;padding: 0 24px 0 24px;
+  color: #344563;
+  padding: 0 24px 0 24px;
 }
 
 h3{
-  color: #7F8CFF;
+  color: #7f8cff;
   font-weight: 500;
   font-size: 16px;
   line-height: 24px;
   margin: 12px 0 0 24px;
 }
 
-.social-media img {
-  margin-left: 24px;
-}
-
 .click52 {
-  border: 1px solid #6070FF;
-  color: white;
+  border: 1px solid #6070ff;
+  color: #fff;
   border-radius: 5px;
-  font-family: 'poppins';
+  font-family: 'poppins', sans-serif;
   font-size: 20px;
   margin: 18px 0 60px 24px;
   max-width: 45%;
   text-align: center;
-}
-
-button {
-  font-weight: 500;
-  letter-spacing: 0.03rem;
-  margin: 12px 0 12px 0;
-  background-color: white;
-  border: 1px;
-  color: #6070ff;
-  font-size: 17px;
 }
 
 h4 {
@@ -962,7 +919,7 @@ h4 {
 .prog3 {
   display: flex;
   justify-content: flex-start;
-  background: #F7F7F9;
+  background: #f7f7f9;
   border-radius: 8px;
   width: 303px;
   height: 66.72px;
