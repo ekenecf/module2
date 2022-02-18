@@ -97,7 +97,6 @@ p.second-paragraph {
   justify-content: flex-start;
   width: 100%;
   list-style: none;
-  /* margin-left: 21px; */
 }
 
 .social-media img {
@@ -530,7 +529,7 @@ span.can3 {
   font-style: normal;
   font-weight: 600;
   font-size: 13px;
-  color: #7A869A;
+  color: #7a869a;
 }
 
 .works3 {
