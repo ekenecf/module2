@@ -160,8 +160,10 @@ li {
   font-weight: 600;
 }
 
-#canopy {
+.canopy {
   color: #344563;
+  font-weight: 600;
+  font-size: 13px;
 }
 
 .to-do ul {
@@ -170,7 +172,6 @@ li {
   list-style-type: none;
 }
 
-
 .names22 li {
   display: flex;
 }
@@ -178,7 +179,7 @@ li {
 .names77 li {
   display: flex;
   justify-content: space-between;
-  border-bottom: 1px solid #DFE1E6;
+  border-bottom: 1px solid #dfe1e6;
   padding: 15px 0;
 }
 
@@ -380,7 +381,6 @@ button {
   font-size: 13px;
 }
 
-
 .second-section51 img {
   width: 295px;
   height: 220px;
@@ -508,7 +508,6 @@ h3 {
   display: flex;
   justify-content: space-around;
 }
-
 
 .names22 li img {
   width: 25px;
