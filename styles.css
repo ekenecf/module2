@@ -149,18 +149,18 @@ li {
 
 .second-section h2 {
   font-size: 32px;
-  color: #172B4D;
+  color: #172b4d;
 }
 
 .to-do {
   margin-top: 13px;
   margin-right: 20px;
   display: flex;
-  color: #7A869A;
+  color: #7a869a;
   font-weight: 600;
 }
 
-#canopy{
+#canopy {
   color: #344563;
 }
 
@@ -168,6 +168,18 @@ li {
   display: flex;
   justify-content: space-between;
   list-style-type: none;
+}
+
+
+.names22 li {
+  display: flex;
+}
+
+.names77 li {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #DFE1E6;
+  padding: 15px 0;
 }
 
 .to-do ul li {
@@ -200,16 +212,16 @@ li {
 .to-do img {
   width: 8px;
   height: 8px;
-  margin: 0px 12px 0 12px;
+  margin: 0 12px 0 12px;
 }
 
-.list{
+.list {
   padding-top: 3px;
   margin: 0 10px 0 0;
 }
 
-.list a{
-  background-color: #EBEBFF;
+.list a {
+  background-color: #ebebff;
   padding: 5px 10px;
   border-radius: 11px;
   font-size: 12px;
@@ -272,12 +284,8 @@ button {
 .to-do2 {
   margin-top: 20px;
   display: flex;
-  color: #7A869A;
+  color: #7a869a;
   font-weight: 600;
-}
-
-#canopy{
-  color: #344563;
 }
 
 .to-do2 ul {
@@ -357,12 +365,8 @@ button {
   margin-top: 15px;
   margin-right: 20px;
   display: flex;
-  color: #7A869A;
+  color: #7a869a;
   font-weight: 600;
-}
-
-#canopy{
-  color: #344563;
 }
 
 .to-do3 ul {
@@ -374,6 +378,17 @@ button {
 .to-do3 ul li {
   margin: 0;
   font-size: 13px;
+}
+
+
+.second-section51 img {
+  width: 295px;
+  height: 220px;
+  margin-top: 16px;
+}
+
+.agbe img {
+  padding: 10px;
 }
 
 .to-do3 ul img {
@@ -407,12 +422,6 @@ button {
   padding-inline: 16px;
   width: 327px;
   height: 596px;
-}
-
-.second-section51 img {
-  width: 295px;
-  height: 220px;
-  margin-top: 16px;
 }
 
 .second-section51 h2 {
@@ -500,9 +509,6 @@ h3 {
   justify-content: space-around;
 }
 
-.names22 li {
-  display: flex;
-}
 
 .names22 li img {
   width: 25px;
@@ -523,10 +529,7 @@ h4 {
 
 .agbe {
   display: flex;
-}
-
-.agbe img {
-  padding: 10px;
+  background-color: #f7f7f9;
 }
 
 .agbe h5 {
@@ -534,10 +537,6 @@ h4 {
   font-size: 15px;
   margin-left: 15px;
   color: #253858;
-}
-
-.agbe {
-  background-color: #F7F7F9;
 }
 
 .social-media48 {
@@ -548,16 +547,8 @@ h4 {
   margin-left: 33px;
 }
 
-
 .names77 {
   margin-top: 20px;
-}
-
-.names77 li {
-  display: flex;
-  justify-content: space-between;
-  border-bottom: 1px solid #DFE1E6;
-  padding: 15px 0;
 }
 
 .names77 ul {
