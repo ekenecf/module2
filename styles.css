@@ -391,6 +391,15 @@ button {
   padding: 10px;
 }
 
+.names77 img {
+  width: 20px;
+}
+
+.names22 img {
+  width: 25px;
+  margin-left: 90px;
+}
+
 .to-do3 ul img {
   width: 8px;
   height: 8px;
@@ -510,11 +519,6 @@ h3 {
   margin-bottom: 35px;
 }
 
-.names22 img {
-  width: 25px;
-  margin-left: 90px;
-}
-
 h4 {
   margin: 2px 100px 0 0;
   color: #000;
@@ -552,8 +556,4 @@ h4 {
   justify-content: space-between;
   margin-top: 35px;
   border-bottom: 1px solid #e0d8d8;
-}
-
-.names77 img {
-  width: 20px;
 }
