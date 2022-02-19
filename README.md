@@ -1,4 +1,4 @@
-First portfolio setup and mobile skeleton
+Portfolio setup and mobile skeleton
 
 
 ## Built With
