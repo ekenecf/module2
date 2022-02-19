@@ -499,17 +499,18 @@ h3 {
   border-radius: 5px;
   font-family: 'poppins', sans-serif;
   font-size: 20px;
-  margin: 18px 0 60px 24px;
+  margin: 18px 0 35px 24px;
   max-width: 45%;
   text-align: center;
 }
 
-.names22 ul {
+.names22 {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
+  margin-bottom: 35px;
 }
 
-.names22 li img {
+.names22 img {
   width: 25px;
   margin-left: 90px;
 }
@@ -547,13 +548,12 @@ h4 {
 }
 
 .names77 {
-  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 35px;
+  border-bottom: 1px solid #e0d8d8;
 }
 
-.names77 ul {
-  display: block;
-}
-
-.names77 li img {
+.names77 img {
   width: 20px;
 }
