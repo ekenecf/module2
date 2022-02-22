@@ -602,7 +602,8 @@ form {
   width: 90px;
 }
 
-input,textarea {
+input,
+textarea {
   font-size: 17px;
   font-family: 'poppins', sans-serif;
   width: 322px;
