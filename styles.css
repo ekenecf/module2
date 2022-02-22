@@ -183,6 +183,11 @@ li {
   padding: 15px 0;
 }
 
+.form li {
+  list-style-type: none;
+  margin: 0;
+}
+
 .to-do ul li {
   margin: 0;
   font-size: 13px;
@@ -467,7 +472,7 @@ button:active {
 }
 
 .footer {
-background-color: #fff;
+  background-color: #fff;
 }
 
 /* About myself */
@@ -476,7 +481,6 @@ background-color: #fff;
   width: 375px;
   height: 1263px;
   display: block;
-  /* background-color: #fff; */
 }
 
 .last h2 {
@@ -570,7 +574,7 @@ h4 {
 }
 
 .form h2 {
-  color: #FFF;
+  color: #fff;
   display: flex;
   justify-content: center;
   padding-top: 102px;
@@ -584,7 +588,7 @@ h4 {
   font-size: 20px;
   line-height: 28px;
   text-align: center;
-  color: #EBEBFF;
+  color: #ebebff;
   padding: 0 20px 20px 20px;
   margin-top: 12px;
 }
@@ -593,17 +597,12 @@ form {
   padding-left: 24px;
 }
 
-.form li {
-  list-style-type: none;
-  margin: 0;
-}
-
 .form label {
   display: inline-block;
   width: 90px;
 }
 
-input, textarea {
+input,textarea {
   font-size: 17px;
   font-family: 'poppins', sans-serif;
   width: 322px;
