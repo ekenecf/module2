@@ -569,8 +569,11 @@ h4 {
 /* form-section */
 
 .form {
-  background-image: url(./images/Contact-me.jpg);
+  background-image: url("images/contact-form-shapes-mobile@2x.png"), url(./images/Contact-me.jpg);
   height: 779px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: right;
 }
 
 .form h2 {
@@ -610,6 +613,7 @@ textarea {
   height: 48px;
   border-radius: 8px;
   border: 1px solid #fff;
+  padding: 15px 38px 15px 15px;
 }
 
 textarea {
