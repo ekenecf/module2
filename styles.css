@@ -183,6 +183,11 @@ li {
   padding: 15px 0;
 }
 
+.form li {
+  list-style-type: none;
+  margin: 0;
+}
+
 .to-do ul li {
   margin: 0;
   font-size: 13px;
@@ -466,13 +471,16 @@ button:active {
   transform: translateY(4px);
 }
 
+.footer {
+  background-color: #fff;
+}
+
 /* About myself */
 
 .last {
   width: 375px;
   height: 1263px;
   display: block;
-  background-color: #fff;
 }
 
 .last h2 {
@@ -556,4 +564,61 @@ h4 {
   justify-content: space-between;
   margin-top: 35px;
   border-bottom: 1px solid #e0d8d8;
+}
+
+/* form-section */
+
+.form {
+  background-image: url(./images/Contact-me.jpg);
+  height: 779px;
+}
+
+.form h2 {
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  padding-top: 102px;
+  font-size: 40px;
+}
+
+.form p {
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 28px;
+  text-align: center;
+  color: #ebebff;
+  padding: 0 20px 20px 20px;
+  margin-top: 12px;
+}
+
+form {
+  padding-left: 24px;
+}
+
+.form label {
+  display: inline-block;
+  width: 90px;
+}
+
+input,
+textarea {
+  font-size: 17px;
+  font-family: 'poppins', sans-serif;
+  width: 322px;
+  height: 48px;
+  border-radius: 8px;
+  border: 1px solid #fff;
+}
+
+textarea {
+  vertical-align: top;
+  height: 170px;
+}
+
+.form .click52 {
+  background-color: #fff;
+  border-radius: 8px;
+  margin-left: 0;
 }
