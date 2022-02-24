@@ -729,7 +729,7 @@ textarea {
 
 .first-section {
   width: 100%;
-  background-image: url(./images/Header-bg.svg);
+  background-image: url('./images/Header-bg.svg');
   background-repeat: no-repeat;
   background-size: contain;
   height: 850px;
@@ -772,6 +772,7 @@ p.second-paragraph {
   display: flex;
   align-items: center;
   justify-content: center;
+  margin-bottom: 114px;
 }
 
 .GridWrapper {
@@ -876,6 +877,7 @@ p.second-paragraph {
   display: flex;
   align-items: center;
   justify-content: center;
+  margin-bottom: 114px;
 }
 
 .GridWrapper2 {
@@ -958,6 +960,7 @@ p.second-paragraph {
   display: flex;
   align-items: center;
   justify-content: center;
+  margin-bottom: 114px;
 }
 
 .GridWrapper3 {
@@ -1053,14 +1056,6 @@ img.cursor1 {
   padding: 20px;
 }
 
-.GridCard51 {
-  width: 100%;
-  height: 496px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
 .GridWrapper51 {
   width: 80%;
   height: 100%;
@@ -1111,7 +1106,6 @@ img.cursor1 {
   align-items: center;
   justify-content: center;
   margin-bottom: 120px;
-  margin-top: 114px;
 }
 
 .GridWrapper51a {
