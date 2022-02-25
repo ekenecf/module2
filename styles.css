@@ -238,7 +238,6 @@ li {
 
 .works {
   font-family: 'Poppins', sans-serif;
-  /* font-weight: 500; */
   font-size: 12px;
   margin-top: 16px;
 }
@@ -246,7 +245,6 @@ li {
 .works ul {
   display: flex;
   list-style-type: none;
-  /* font-weight: 500; */
 }
 
 .click {
@@ -697,7 +695,6 @@ textarea {
 }
 
 @media screen and (min-width: 1050px) {
-
   html body {
     min-width: 368px;
     height: 100%;
