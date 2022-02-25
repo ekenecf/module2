@@ -238,7 +238,7 @@ li {
 
 .works {
   font-family: 'Poppins', sans-serif;
-  font-weight: 500;
+  /* font-weight: 500; */
   font-size: 12px;
   margin-top: 16px;
 }
@@ -246,6 +246,7 @@ li {
 .works ul {
   display: flex;
   list-style-type: none;
+  /* font-weight: 500; */
 }
 
 .click {
@@ -471,6 +472,11 @@ img.cursor1 {
   text-align: center;
 }
 
+button.btn {
+  background-color: blue;
+  color: white;
+}
+
 /* part four */
 
 .second-section51 {
@@ -691,6 +697,13 @@ textarea {
 }
 
 @media screen and (min-width: 1050px) {
+
+  html body {
+    min-width: 368px;
+    height: 100%;
+    font-family: "Poppins", sans-serif;
+  }
+
   .maincontainer {
     display: block;
     width: 100%;
@@ -1008,8 +1021,8 @@ textarea {
   }
 
   button {
-    background-color: #6070ff;
-    color: #fff;
+    background-color: white;
+    color: #6070ff;
   }
 
   .works ul {
