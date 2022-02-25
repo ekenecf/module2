@@ -178,7 +178,7 @@ li {
 }
 
 .to-do {
-  margin-top: 13px 20px;
+  margin-top: 13px ;
   display: flex;
   color: #7a869a;
   font-weight: 600;
@@ -743,7 +743,6 @@ textarea {
     font-size: 48px;
     display: flex;
     letter-spacing: 0.37px;
-    font-size: 48px;
     color: #091e42;
     font-family: 'Poppins', sans-serif;
     line-height: 60px;
@@ -818,6 +817,10 @@ textarea {
     font-size: 40px;
     font-weight: bold;
   }
+  
+  .to-do3 li {
+    display: none;
+  }
 
   .to-do ul li {
     color: #344563;
@@ -888,11 +891,6 @@ textarea {
     align-items: center;
   }
 
-  .second-section2.images {
-    width: 100%;
-    height: 552px;
-  }
-
   .second-section2 img.img1 {
     display: none;
   }
@@ -901,6 +899,18 @@ textarea {
     display: block;
     height: 350px;
     width: 450px;
+  }
+
+  .sub-section {
+    font-family: "poppins", sans-serif;
+    color: #091e42;
+    font-size: 20px;
+    font-weight: bold;
+    width: 100%;
+  }
+
+  .sub-section h2 {
+    font-size: 40px;
   }
 
   .to-do2 .canopy {
@@ -974,6 +984,15 @@ textarea {
     display: block;
   }
 
+  .sub-section3 {
+    width: 100%;
+  }
+
+  .sub-section3 h2 {
+    font-size: 40px;
+    color: #091E42;
+  }
+
   .second-section3 img.img1 {
     display: none;
   }
@@ -1005,24 +1024,20 @@ textarea {
     list-style-type: none;
     margin-bottom: 40px;
   }
+  
+  .ruby2 {
+    padding-top: 3px;
+    margin: 0 10px 0 0;
+  }
 
   .works .ruby2 {
     display: block;
-  }
-
-  .to-do3 li {
-    display: none;
   }
 
   .to-do3 .fcb {
     display: block;
     font-size: 18px;
     font-weight: normal;
-  }
-
-  .ruby2 {
-    padding-top: 3px;
-    margin: 0 10px 0 0;
   }
 
   .ruby2 a {
@@ -1037,13 +1052,13 @@ textarea {
     width: 60px;
     height: 60px;
   }
-
+/* 
   .second-section3 img.img2 {
     margin: 0;
     display: block;
     width: 444px;
     height: 390px;
-  }
+  } */
 
   /* fourth part */
 
@@ -1075,12 +1090,22 @@ textarea {
     display: none;
   }
 
+  .second-section5 h2 {
+    color: #091E42;
+    font-size: 40px;
+  }
+
+  .second-section5 {
+    width: 100%;
+  }
+
   .to-do-para51 {
     display: none;
   }
 
   .to-do-paramob {
     display: block;
+    margin-top: 15px;
   }
 
   .click51 {
@@ -1105,6 +1130,7 @@ textarea {
     align-items: center;
     justify-content: center;
     margin-bottom: 120px;
+    padding-top: 30px;
   }
 
   .GridWrapper51a {
