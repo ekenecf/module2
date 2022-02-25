@@ -178,7 +178,7 @@ li {
 }
 
 .to-do {
-  margin-top: 13px ;
+  margin-top: 13px;
   display: flex;
   color: #7a869a;
   font-weight: 600;
@@ -817,7 +817,7 @@ textarea {
     font-size: 40px;
     font-weight: bold;
   }
-  
+
   .to-do3 li {
     display: none;
   }
@@ -901,16 +901,9 @@ textarea {
     width: 450px;
   }
 
-  .sub-section {
-    font-family: "poppins", sans-serif;
-    color: #091e42;
-    font-size: 20px;
-    font-weight: bold;
-    width: 100%;
-  }
-
   .sub-section h2 {
     font-size: 40px;
+    color: #091e42;
   }
 
   .to-do2 .canopy {
@@ -1052,13 +1045,6 @@ textarea {
     width: 60px;
     height: 60px;
   }
-/* 
-  .second-section3 img.img2 {
-    margin: 0;
-    display: block;
-    width: 444px;
-    height: 390px;
-  } */
 
   /* fourth part */
 
