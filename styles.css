@@ -83,8 +83,6 @@ a:hover {
 .section2 h1 {
   font-weight: bold;
   font-size: 40px;
-
-  /* width: 100%; */
   color: #172b4d;
   line-height: 52px;
 }
@@ -103,16 +101,12 @@ a:hover {
 p.second-paragraph {
   font-size: 16px;
   margin-top: 15px;
-
-  /* width: 100%; */
   color: #7f8cff;
 }
 
 .social-media {
   display: flex;
   justify-content: flex-start;
-
-  /* width: 100%; */
   list-style: none;
 }
 
@@ -132,6 +126,7 @@ li {
   display: flex;
   justify-content: center;
   margin-top: 180px;
+  align-items: center;
 }
 
 .Grid-container {
@@ -544,7 +539,10 @@ button:active {
 .last {
   width: 375px;
   height: 1263px;
-  display: block;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 .last h2 {
@@ -632,15 +630,27 @@ h4 {
 
 /* form-section */
 
-.form {
-  background-image: url("images/contact-form-shapes-mobile@2x.png"), url('./images/Contact-me.jpg');
-  height: 779px;
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-position: right;
+.GridCardlst {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
-.form h2 {
+.GridWrapperlst {
+  height: fit-content;
+  width: 60%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-image:  url("./images/Contact-me.jpg"), url("./images/contact-form-shapes-mobile@2x.png");
+  height: 779px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.GridWrapperlst h2 {
   color: #fff;
   display: flex;
   justify-content: center;
@@ -648,7 +658,7 @@ h4 {
   font-size: 40px;
 }
 
-.form p {
+.GridWrapperlst p {
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: normal;
@@ -660,11 +670,11 @@ h4 {
   margin-top: 12px;
 }
 
-form {
+.form {
   padding-left: 24px;
 }
 
-.form ul {
+.formpart ul {
   list-style-type: none;
 }
 
@@ -689,9 +699,21 @@ textarea {
   height: 170px;
 }
 
-.form .click52 {
-  background-color: #fff;
-  border-radius: 8px;
+.MyBtn{
+  width: 75%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-right: 15px;
+}
+
+.click52{
+  background: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-right: 25px;
 }
 
 @media screen and (min-width: 1050px) {
@@ -723,6 +745,15 @@ textarea {
     font-weight: 500;
     font-size: 15px;
     color: #344563;
+  }
+
+  .nav-list li{
+    transform: scale(1);
+   
+  }
+  .nav-list li:hover{
+    transform: scale(1.5);
+    transition: all 350ms;
   }
 
   .nav-list a {
@@ -877,6 +908,15 @@ textarea {
 
   .works2 ul {
     padding: 15px 0;
+  }
+
+  .works li {
+    transform: scale(1);
+  }
+
+  .works li:hover {
+    transform: scale(1.5);
+    transition: all 350ms;
   }
 
   .second-section2.images {
@@ -1123,11 +1163,12 @@ textarea {
     width: 100%;
     height: 496px;
     display: flex;
-    align-items: center;
+    flex-direction: column;
     justify-content: center;
+    align-items: center;
     margin-bottom: 120px;
     padding-top: 30px;
-  }
+}
 
   .GridWrapper51a {
     width: 80%;
@@ -1149,7 +1190,7 @@ textarea {
   }
 
   .footer {
-    background-image: url(./images/about-myself-\ background-shape-\ desktop.svg);
+    background-image: url("./images/about-myself-\ background-shape-\ desktop.svg");
   }
 
   /* form */
@@ -1160,43 +1201,62 @@ textarea {
     flex-direction: column;
     align-items: center;
   }
+  
+.GridCardlst{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  background-image:
+  url("./images/contact-form-background-shapes.svg"),
+  url("./images/contact form- background-shape-desktop (1).jpg");
+  background-position: right;
+  background-repeat: no-repeat;
+}
 
-  .GridCardlst {
-    background-image:
-      url(./images/contact-form-background-shapes.svg),
-      url("./images/contact\ form-\ background-shape-desktop.svg");
-    background-repeat: no-repeat;
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
+.GridWrapperlst{
+  width: 90%;
+  height: 846px;
+  background-image: none;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.GridWrapperlst h2{
+  color: #fff;
+  margin-top: 80px;
+}
+.GridWrapperlst p{
+  color: #fff;
+  margin-top: 20px;
+  width: 50%;
+  text-align: center;
+}
 
-  .GridWrapperlst {
-    width: 80%;
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
+.formpart{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
-  form {
-    padding: 0;
-    display: flex;
-    margin: 0;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
+.formpart ul {
+  list-style-type: none;
+}
 
-  .form p {
-    width: 55%;
-    display: flex;
-    justify-content: center;
-    text-align: end;
-  }
+.MyBtn{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 15px;
+}
 
-  .click52 {
-    width: 34%;
-  }
+.click53{
+  background: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-right: 25px;
+}
+
 }
